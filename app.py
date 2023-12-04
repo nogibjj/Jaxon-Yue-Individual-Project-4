@@ -4,17 +4,7 @@ from openai import OpenAI
 from flask import Flask, render_template, request
 
 load_dotenv()
-client = OpenAI(api_key = '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')
-
-# Test case
-completion = client.chat.completions.create(
-  model="gpt-3.5-turbo",
-  messages=[
-      {"role": "system", "content": "You are a recruiter for Data Scientists at one of the leading tech firms."},
-      {"role": "user", "content": "Generate a typical behavioral interview question"}
-  ]
-)
-print(completion.choices[0].message.content)
+client = OpenAI(api_key = os.getenv("OPENAI_API_KEY"))
 
 # Flask app
 app = Flask(__name__)
