@@ -21,3 +21,5 @@ seaborn
 dask
 python-dotenv
 databricks-sql-connector
+#openai
+openai
