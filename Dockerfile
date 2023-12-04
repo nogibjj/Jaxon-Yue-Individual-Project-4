@@ -1,5 +1,10 @@
-FROM alpine:latest
-RUN apk update && apk add bash
+FROM python:3.8-slim
 
 WORKDIR /app
-COPY repeat.sh /app
+
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+COPY . .
+
+CMD ["gunicorn", "-b", "0.0.0.0:8000", "app:app"]
