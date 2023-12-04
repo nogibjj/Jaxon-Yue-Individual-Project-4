@@ -1,6 +1,6 @@
 # IDS 706 Individual Project 4 [![CI](https://github.com/nogibjj/Jaxon-Yue-Individual-Project-4/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Jaxon-Yue-Individual-Project-4/actions/workflows/cicd.yml)
 
-[https://interviewq.azurewebsites.net](url)
+[https://interviewq.azurewebsites.net](Web App Link)
 
 ## Overview
 * This repository includes the components for Individual Project 4 - Auto Scaling Flask App Using Serverless Platform
@@ -33,13 +33,13 @@ The web app that I built, **InterviewQ**, has the following features:
 3. Use the following command to build the docker image and launch the app on a locally hosted website using port 5000
 ```
 docker build interviewq
-docker run -p 5000:5000 myapp
+docker run -p 5000:5000 interviewq
 ```
 4. Use the following command to log into DockerHub and push to your container
 ```
-docker login --<username>
-docker build -t <username>/<repo> .
-docker push <username>/<repo>
+docker login --<insert username>
+docker build -t <insert username>/<insert repo name> .
+docker push <insert username>/<insert repo name>
 ```
 5. Create a new app service on Azure, select Docker Container and deploy the DockerHub image
 6. Navigate to **Configuration** -> **Application Settings**, and add `WEBSITES_PORT` with a value of 5000, and `OPENAI_API_KEY` with your personal key
