@@ -1,7 +1,7 @@
 # IDS 706 Individual Project 4 [![CI](https://github.com/nogibjj/Jaxon-Yue-Individual-Project-4/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Jaxon-Yue-Individual-Project-4/actions/workflows/cicd.yml)
 
-Web App Link: [https://interviewq.azurewebsites.net](url)
-YouTube Demo: [https://www.youtube.com/watch?v=2NwlrwbR-bk](url)
+Web App Link: https://interviewq.azurewebsites.net
+YouTube Demo: https://www.youtube.com/watch?v=2NwlrwbR-bk
 
 ## Overview
 * This repository includes the components for Individual Project 4 - Auto Scaling Flask App Using Serverless Platform
