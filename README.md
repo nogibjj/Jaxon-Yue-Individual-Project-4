@@ -1,6 +1,6 @@
 # IDS 706 Individual Project 4 [![CI](https://github.com/nogibjj/Jaxon-Yue-Individual-Project-4/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Jaxon-Yue-Individual-Project-4/actions/workflows/cicd.yml)
 
-[Web App Link]([url](https://interviewq.azurewebsites.net)): [https://interviewq.azurewebsites.net](URL)
+Web App Link: [https://interviewq.azurewebsites.net](url)
 YouTube Demo: [https://www.youtube.com/watch?v=2NwlrwbR-bk](url)
 
 ## Overview
